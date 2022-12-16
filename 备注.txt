@@ -1,0 +1,77 @@
+训练集 5、6、7、11、61、62、63、64
+大小256
+
+
+
+D_ResNet  2175s
+            m_iou      max_iou
+BAM7 0.8292        0.8351                 0.7
+BAM6 0.8289        0.8343                 0.5
+BAM5 0.8264        0.8302                 1
+BAM4 0.8318        0.8382                 0.8
+BAM3 0.8325        0.8427                 0.6
+BAM2 0.8297        0.8357                 0.4
+BAM1 0.8280        0.8325                 0.2
+
+BAM8 0.8302        0.8367                 0.2
+BAM9 0.8302        0.8359                 0.4      
+BAM10 0.8312       0.8367                0.6
+BAM11 0.8308       0.8374                0.8
+BAM13 0.8298       0.8394                0.9
+
+BAM15 0.8294      0.8354
+BAM16 0.8354      0.8430      
+
+
+β值	IoU	F1
+0.1	82.56	0.9045
+0.2	82.94	0.9067
+0.3	83.16	0.9080
+0.4	83.57	0.9105	
+0.5	83.85	0.9122
+0.6	84.12	0.9137
+0.7	83.27	0.9087
+0.8	83.13	0.9079
+0.9	82.95	0.9068
+
+α值	IoU	F1
+0.1	84.12	0.9137
+0.2	83.67	0.9108
+0.3	83.32	0.9090
+0.4	83.08	0.9075	
+0.5	83.11	0.9077
+0.6	83.01	0.9071
+0.7	83.06	0.9074
+0.8	82.99	0.9070
+0.9	82.70	0.9053
+
+γ值	IoU	F1
+1              82.98	0.9070
+2	83.72	0.9114
+3              83.83        0.9120
+4              84.06	0.9134
+5	83.38	0.9094
+6              82.97        0.9069
+
+消融实验	m_IoU	max_iou
++GAM	0.8346      0.8355
++RAM+GAM 0.8273 0.8297
+
+
+对应会议及缩写
+International Conference on Medical image computing and computer-assisted intervention.   Proc. Int. Conf. Med. Image Comput. Comput.-Assist. Interv.
+Proceedings of the European conference on computer vision.                                                  Proc. Eur . Conf. Comput. Vis.
+Proceedings of the IEEE conference on computer vision and pattern recognition.                     Proc. IEEE Conf. Comput. Vis. Pattern Recognit.
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition.          Proc. IEEE/ CVF Conf. Comput. Vis. Pattern Recognit.
+Advances in neural information processing systems.                                                                 Proc. Adv. Neural Inf. Process. Syst.
+Proceedings of the IEEE/CVF international conference on computer vision.		Proc. IEEE/CVF Int. Comput. Vis. Pattern Recognit.
+Proceedings of the IEEE international conference on computer vision                                       Proc. IEEE Int. Conf. Comput. Vis.
+Procedings of the British Machine Vision Conference                                                                Proc. Brit. Mach. Vis. Conf.
+IEEE International Geoscience and Remote Sensing Symposium                                                Proc. IEEE Int. Geosci. Remote Sens. Symp.
+
+
+
+
+
+
+
